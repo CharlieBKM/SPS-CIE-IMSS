@@ -76,7 +76,7 @@ resLayout = html.Div(
      html.Br(),
      dbc.Row(
          [
-            dbc.Col(html.Button("Encuesta Nacional de Imagen Institucional"),width = 10, lg=6),                    
+            dbc.Col(html.Button(html.A("Encuesta Nacional de Imagen Institucional", href='https://cie-eni2021.herokuapp.com/res',style={'color':'#D4C19C'})),width = 10, lg=6),                    
          ],
          justify="center"),
       html.Br(),
