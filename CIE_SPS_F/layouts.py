@@ -89,7 +89,7 @@ resLayout = html.Div(
      dbc.Row(
          [
             dbc.Col(html.Button(html.A("Estudio Nacional de Calidad de la Atención y de los servicios de salud", href='https://cie-encal20.herokuapp.com/res',style={'color':'#D4C19C'})),width = 10, lg=6),                    
-            dbc.Col(html.Button("Estudio Nacional de Calidad de la Atención del servicio de guardería"),width = 10, lg=6),
+            dbc.Col(html.Button(html.A("Estudio Nacional de Calidad de la Atención del servicio de guardería", href='https://cie-encal2020-guard.herokuapp.com/res',style={'color':'#D4C19C'})),width = 10, lg=6),
          ],
          justify="center"),
      html.Br(),
